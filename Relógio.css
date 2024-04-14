@@ -1,0 +1,40 @@
+body{
+    background: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0ef8bf5a4a9ee4b6/616e0cf0323a8610fb736cdd/7f598d4d6ed29214d88c512f7e60b3a12b97e151.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(red, white, black);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(43, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.central div{
+    background: linear-gradient(red, white, black);
+    color: black;
+    width: 85px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central div span{
+    font-size: 40px;
+}
+
+.central div p{
+    font-size: 15px;
+    margin: 0;                                                                                   
+}
