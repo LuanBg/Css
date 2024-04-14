@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background: linear-gradient(black, gray, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.central button{
+    width: 80px;
+    border: none;
+    outline: none;
+    background: gray;
+    color: black;
+    height: 25px;
+    cursor: pointer;
+}
