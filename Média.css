@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/1092672.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(rgb(170, 5, 170), rgb(170, 36, 170), rgb(153, 2, 153));
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.central p{
+    font-size: 25px;
+    margin: 5px;
+}
+.central input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+.central input:focus {
+    background: rgb(230, 216, 216);
+}
+.central button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+.central button:focus {
+    background: rgb(230, 216, 216);
+}
