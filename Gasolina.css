@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: url(https://wallpaper.dog/large/10790424.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+img {
+    margin-top: 10px;
+}
+.central {
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.central p {
+    font-size: 25px;
+    margin: 5px;
+}
+.central input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+.central input:focus {
+    background: rgb(230, 216, 216);
+}
+.central button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+.central button:focus {
+    background: rgb(230, 216, 216);
+}
