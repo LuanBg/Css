@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/1092672.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+}
+#jog{
+    max-width: 200px; 
+    margin-right: 20px;
+}
+
+.central {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 60px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+.central {
+    width: 700px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.central input:focus {
+    background: rgb(230, 216, 216);
+}
+.central button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: rgb(216, 216, 215);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.central button:focus {
+    background: rgb(230, 216, 216);
+}
