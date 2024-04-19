@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    background: url(/images/cenario\ sonic.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#goku {
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    animation: corrida 2s infinite;
+}
+#gatinho {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    animation: corridagatinho 12s infinite;
+}
+#crash {
+    position: absolute;
+    top: 675px;
+    left: 1755px;
+    animation: corridacrash 5s infinite;
+}
+#dino {
+    position: absolute;
+    top: 527px;
+    left: 440px;
+}
+#surf {
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+    animation: kongsurf 5s infinite;
+}
+#nuvens {
+    position: absolute;
+    top: 0px;
+    left: 85%;
+}
+#danca {
+    position: absolute;
+    top: 525px;
+    left: 840px;
+}
+@keyframes corrida {
+    0% {
+        top: 650px;
+        left: 0%;
+    }
+    100% {
+        top: 650px;
+        left: 110%;
+    }
+}
+@keyframes corridagatinho {
+    0% {
+        top: 350px;
+        left: 0%;
+    }
+    100% {
+        top: 350px;
+        left: 110%;
+    }
+}
+@keyframes corridacrash {
+    0% {
+        top: 675px;
+        right: 700px;
+    }
+    100% {
+        top: 675px;
+        left: -110%;
+    }
+}
+@keyframes kongsurf {
+    0% {
+        top: 0px;
+        left: 200px;
+        transform: rotate(0deg); 
+    }
+    100% {
+        top: 200px;
+        left: calc(110% - 100px);
+
+    }
+}
